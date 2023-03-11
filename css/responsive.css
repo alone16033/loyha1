@@ -1,0 +1,133 @@
+@media only screen and (max-width:768px) {
+
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .navigation{
+        display: none;
+        
+    }
+
+    .header .fa-bars{
+    color: #d8ca0a;
+    display: block;
+    position: fixed;
+    right: 10%;
+    top: 2%;
+    font-size: 2.3rem;
+}
+
+.banner{
+    position: absolute;
+    margin-top: 30%;
+    width: 100%;
+
+}
+
+.banner h1{
+    text-align: center;
+    color: #b33a3a;
+    font-family: var(--roboto);
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.banner p{
+    color: #755207;
+    opacity: 0.6;
+    font-family: var(--golos);
+    font-size: 1rem;
+    width: 90%;
+    margin-left: 0%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    border-bottom: 0;
+}
+
+.social__media{
+    position: absolute;
+    margin-top: 73%;
+    margin-left: 9%;
+    display: flex;
+    align-items: center;
+}
+
+.fa-down{
+   display: none;
+}
+
+.about__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2.6rem;
+ }
+
+
+ .about__item .title p{
+    width: 100%;
+    color: #ece0e0;
+ }
+
+ .about__detal{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.resume__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+    border-bottom: 1px solid rgb(82, 54, 13);
+    margin-bottom: 2rem;
+}
+
+.resume__item .title p{
+    margin-top: 0.5rem;
+    color: #2b2b2b;
+    font-family: var(--golos);
+    width: 100%;
+}
+
+.work__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+
+.contact  .title{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+
+}
+
+.contact__contect{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.contact__item1{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+}
+
+.footer{
+    width: 100%;
+    padding: 4.8rem;
+    background-color: #4c4c48;
+}
+
+.footer__media{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+    color: #fff;
+}
+    
+}
+
